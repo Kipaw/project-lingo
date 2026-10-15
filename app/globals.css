@@ -129,6 +129,11 @@ body,
   }
   body {
     @apply bg-background text-foreground;
+    background-image: url("/batik.svg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    background-attachment: fixed;
   }
   html {
     @apply font-sans;

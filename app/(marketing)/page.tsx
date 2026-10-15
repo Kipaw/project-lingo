@@ -26,7 +26,7 @@ export default function Home() {
 
       <div className="flex flex-col items-center gap-y-8">
         <h1 className="text-xl lg:text-3xl font-bold text-neutral-600 max-w-[480px] text-center">
-          Learn, practice, and master new languages with Lingo.
+          Belajar, berlatih, dan kuasai bahasa daerah bersama Lingéu!
         </h1>
 
         <div className="flex flex-col items-center gap-y-3 max-w-[330px] w-full">
@@ -42,7 +42,7 @@ export default function Home() {
                 signInFallbackRedirectUrl="/learn"
               >
                 <Button size="lg" variant="secondary" className="w-full">
-                  Get Started
+                  Yuk, Mulai
                 </Button>
               </SignUpButton>
 
@@ -52,7 +52,7 @@ export default function Home() {
                 signUpFallbackRedirectUrl="/learn"
               >
                 <Button size="lg" variant="primaryOutline" className="w-full">
-                  I already have an account
+                  Sudah punya akun
                 </Button>
               </SignInButton>
             </Show>
@@ -65,7 +65,7 @@ export default function Home() {
                 nativeButton={false}
                 render={<Link href="/learn" />}
               >
-                Continue learning
+                Lanjut Belajar
               </Button>
             </Show>
           </ClerkLoaded>

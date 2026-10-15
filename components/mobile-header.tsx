@@ -2,7 +2,7 @@ import { MobileSidebar } from "./mobile-sidebar";
 
 export const MobileHeader = () => {
   return (
-    <nav className="sticky top-0 z-50 flex h-[50px] w-full items-center border-b bg-green-500 px-6 lg:hidden">
+    <nav className="sticky top-0 z-50 flex h-[50px] w-full items-center border-b bg-rose-500 px-6 lg:hidden">
       <MobileSidebar />
     </nav>
   );
