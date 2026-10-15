@@ -11,7 +11,7 @@ import { Card } from "./card";
 
 type Props = {
   courses: (typeof coursesTable.$inferSelect)[];
-  activeCourseId?: number;
+  activeCourseId?: number | null;
 };
 
 export const List = ({ courses, activeCourseId }: Props) => {
